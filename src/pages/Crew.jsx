@@ -509,7 +509,7 @@ const CrewContainer = styled.div`
           top: 45%;
         }
         .commander-image{
-          margin-top: 120px;
+          margin-top: 240px;
         }
       }
     }
