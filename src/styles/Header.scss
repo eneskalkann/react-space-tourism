@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap");
+
+.container-header{
+    padding-top: 40px;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.logo {
+  padding-left: 120px;
+}
+.nav {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 12px;
+  white-space: nowrap;
+  height: 70px;
+  width: 700px;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  margin-left: 54%;
+  margin-right: -29px;
+  padding-left: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background: rgba(255, 255, 255, 0.17);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(23.3px);
+  -webkit-backdrop-filter: blur(10.3px);
+  &-item {
+    position: relative;
+    color: white;
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 300;
+    margin-left: 30px;
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    :hover {
+      color: #d0d6f9;
+      transition: 0.5s;
+    }
+    span {
+      font-weight: 700;
+      margin-right: 5px;
+      font-size: 16px;
+    }
+  }
+  &-btn {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #d0d6f9;
+    visibility: hidden;
+    font-size: 1.8rem;
+    opacity: 0;
+  }
+}
+@media screen and (max-width: 1444px) {
+  .nav {
+    margin-left: 40%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .nav {
+    margin-left: 30%;
+  }
+}
+
+@media screen and (max-width: 1046px) {
+  .container-header{
+    padding-top: 0px;
+  }
+  .nav {
+    border-top-left-radius: 0px;
+    margin-left: 17%;
+
+    &-span {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 806px) {
+  .logo {
+    margin: 10px 60% 0 -9rem;
+  }
+  .nav {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    margin-left: 60%;
+    padding-left: 0px;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 3rem;
+    transition: 1s;
+    transform: translateX(100vh);
+    &-item {
+      font-size: 1.5rem;
+      backdrop-filter: initial;
+      margin: 0 0 0 20px;
+      font-size: 26px;
+    }
+    &-close-btn {
+      position: fixed;
+      top: 1rem;
+      right: 3rem;
+      color: #d0d6f9;
+      margin-left: 0;
+    }
+  }
+  .nav-btn {
+    visibility: visible;
+    opacity: 1;
+    margin-left: 19%;
+    color: #d0d6f9;
+  }
+  .responsive-nav {
+    transform: none;
+  }
+}
+
+@media screen and (max-width:594px){
+  .logo{
+    margin: 10px 45% 0 -5rem;
+  }
+    .nav{
+      &-close-btn{
+        right: 1.9rem;
+      }
+    }
+}
+@media screen and (max-width: 474px) {
+  .logo {
+    margin: 10px 40% 0 -7rem;
+  }
+  .nav {
+    margin-left: 50%;
+    width: 50%;
+    gap: 2rem;
+    &-item{
+      font-size: 1.2rem;
+    }
+    &-close-btn {
+      right: 1.6rem;
+      margin-left: 0;
+    }
+  }
+  .nav-btn {
+    margin-left: 30%;
+  }
+}
