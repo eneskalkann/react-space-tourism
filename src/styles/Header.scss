@@ -11,6 +11,7 @@ align-items: center;
 .logo {
   padding-left: 120px;
 }
+
 .nav {
   font-family: "Barlow Condensed", sans-serif;
   font-size: 12px;
@@ -63,6 +64,7 @@ align-items: center;
     opacity: 0;
   }
 }
+
 @media screen and (max-width: 1444px) {
   .nav {
     margin-left: 40%;
@@ -73,7 +75,6 @@ align-items: center;
     margin-left: 30%;
   }
 }
-
 @media screen and (max-width: 1046px) {
   .container-header{
     padding-top: 0px;
@@ -87,7 +88,6 @@ align-items: center;
     }
   }
 }
-
 @media screen and (max-width: 806px) {
   .logo {
     margin: 10px 60% 0 -9rem;
@@ -132,7 +132,6 @@ align-items: center;
     transform: none;
   }
 }
-
 @media screen and (max-width:594px){
   .logo{
     margin: 10px 45% 0 -5rem;
