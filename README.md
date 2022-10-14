@@ -24,5 +24,5 @@ In this project i learned how to i routing page in react.
  npm start
  ```
 
- ## Design Design
+ ## Design
  <img width="1080" alt="Ekran görüntüsü 2022-10-14 170031" src="https://user-images.githubusercontent.com/75678744/195865576-093a91f2-2963-49ca-b609-0b2b08e4d83a.png">
