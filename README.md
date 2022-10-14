@@ -23,7 +23,6 @@ In this project i learned how to i routing page in react.
  ```
  npm start
  ```
- ## Design Desktop
-<img width="1080" alt="asd" src="https://user-images.githubusercontent.com/75678744/195865104-a392e087-cdae-4b7d-9592-c83cf172814f.png">
-## Design Mobile
-![react-space-tourism-eneskalkann vercel app_](https://user-images.githubusercontent.com/75678744/195865243-c331db42-0fc1-4b53-9abf-d1fcd206b765.png)
+
+ ## Design Design
+ <img width="1080" alt="Ekran görüntüsü 2022-10-14 170031" src="https://user-images.githubusercontent.com/75678744/195865576-093a91f2-2963-49ca-b609-0b2b08e4d83a.png">
