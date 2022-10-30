@@ -6,6 +6,7 @@ import Technology from './pages/Technology';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter , Routes , Route} from 'react-router-dom';
 import Destination from './pages/Destination';
+import PageNotFound from './pages/PageNotFound';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
       <Route path="destination" element={<Destination/>}/>
       <Route path="crew" element={<Crew/>}/>
       <Route path="technology" element={<Technology/>}/>
+      <Route path="*" element={<PageNotFound/>}/>
     </Routes>
   </BrowserRouter>
 );
