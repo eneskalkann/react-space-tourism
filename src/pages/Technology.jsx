@@ -4,7 +4,13 @@ import styled from "styled-components";
 import img from "../assets/technology/background-technology-desktop.jpg";
 import imgTablet from "../assets/technology/background-technology-tablet.jpg";
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { AnimateSharedLayout, motion } from "framer-motion";
+
+const variants ={
+  hidden : {opacity:0},
+  visible:{opacity:1},
+  transition : {duration:1}
+}
 
 function Technology() {
   const [toggle, setToggle] = useState(1);
@@ -52,7 +58,7 @@ function Technology() {
                 </button>
               </motion.div>
               <div className="content-div-main">
-                <div className="content-div-desc">
+                <motion.div className="content-div-desc">
                   <h5>The Terminology...</h5>
                   <h2>Launch Vehicle</h2>
                   <p>
@@ -63,7 +69,7 @@ function Technology() {
                     metres tall, it's quite an awe-inspiring sight on the launch
                     pad!
                   </p>
-                </div>
+                </motion.div>
                 <div className="content-div-image">
                   <img
                     className="desktop-image"
