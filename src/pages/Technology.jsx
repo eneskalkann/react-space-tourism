@@ -4,7 +4,7 @@ import styled from "styled-components";
 import img from "../assets/technology/background-technology-desktop.jpg";
 import imgTablet from "../assets/technology/background-technology-tablet.jpg";
 import { useState } from "react";
-import { AnimateSharedLayout, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const variants ={
   hidden : {opacity:0},
